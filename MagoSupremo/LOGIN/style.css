@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+ 
+    
+}
+body{
+    background-image: url(../img/Component7.png);
+    background-size: cover;
+}
+.conteiner {
+    width: 100vw;
+    height: 85vh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 25px
+  }
+  .header a{
+    margin-left: 25px;
+    font-size: 20px;
+    font-weight: 500px;
+    text-decoration: none;
+    
+    color: #fff;   
+  }
+  
+  .menu{
+    display: flex;
+    align-items: center;
+    margin-right: 25px;
+  }
+
+.caixa{
+    background-color: #312e38;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 25);
+    border-radius:  30px;
+    width: 600px;
+    height: 726px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.caixa h2{
+    font-size: 35px;
+    color: #FFFFFF;
+   
+}
+
+
+.chama{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+.form{
+    padding-top: 50px;
+}
+.caixa img{
+    width: 30px;
+    height: 30px;
+}
+
+.caixa input{
+    width: 400px;
+    height: 60px;
+    background-color: #232129;
+    text-decoration: none;
+    border: none;
+    color: #FFFFFF;
+    padding-left: 15px;
+    border-radius:  10px;
+   
+}
+
+.caixa button{
+    background-color: #583D72;
+    border: none;
+    width: 415px;
+    height: 65px;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 20px;
+    border-radius:  40px;
+    text-decoration: none;
+
+    cursor: pointer;
+}
+
+
+
+
+

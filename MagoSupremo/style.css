@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+  .inicio{
+  
+    height:100vh;
+    background-image: url(img/Component7.png);
+    background-size: cover;
+  }
+  .header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+  margin-left: 25px;
+  
+  }
+  
+  .header a{
+    margin-left: 25px;
+    font-size: 20px;
+    font-weight: 500px;
+    text-decoration: none;
+   
+    color: #fff;   
+  }
+
+  .menu{
+    display: flex;
+    align-items: center;
+  }
+  .icon{
+    margin-left: 50px;
+    margin-right: -18px;
+
+  }
+ .header button{
+   margin-left: -850px;
+   padding: 10px;
+   cursor: pointer;
+   background-color: transparent;
+   color: #fff;
+   border: 1px solid #fff;
+   font-size: 20px;
+  }
+
+  .container{
+    color: #fff;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+  }
+  .container p{
+    font-size: 35px;
+  }
+  .container h1{
+    font-size: 45px;
+  }
+  .container button{
+    margin-top: 50px;
+    margin-left: 55px;
+    padding: 20px 110px;
+    border-radius: 50px;
+    background-color: #583D72;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .mago {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  
+  }
+  
+  .mago img{
+    width: 70px;
+    height: auto;
+    margin-top: -10px;
+  }
+  .fimHeader img{
+    position: absolute;
+    top: 92%;
+    left: 50%;
+    width: 50px;
+    height: auto;
+    transform:rotate(180deg);
+  }
+  
+  .content img{
+  
+    height: auto;
+  }
+  .content{
+    display: flex;
+    
+  }
+ .texto{
+    margin: 50px;
+    width: 50%;
+
+  }
+  .texto h1{
+    font-size:35px;
+  }
+  .texto p{
+    font-size: 20px;
+    color: #29292E;
+  }
+  .magos-devs{
+    margin-top: 50px;
+  }
+  .magos{
+    display: flex;
+ 
+  }
+  .magos-content{
+    margin-right: 7%;
+    margin-top: 25px;
+    flex-wrap: wrap;
+  }
+  .footer-content{
+   
+    margin-top: 200px;
+  }
+  .redes-content{
+    display: flex;
+    align-items: center;
+
+  }
+  
+  .redes-content img {
+    width: 50px;
+    height: auto;
+    margin-right: 25px;
+    margin-top: 10px;
+  }
+  .soulCode-content img{
+    width: 150px;
+    height: auto;
+  }
+  .escolha{
+    padding-top: 50px;
+    background-color: #0A0A0B;
+    color: white;
+    text-align: center;
+
+  }
+  .escolha h1{
+    padding-bottom: 80px;
+  }
+  .containerImg{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 80px;
+    padding-bottom: 50px;
+
+  }
+  .img{
+    text-align: left;
+    width: 400px;
+  }
+  .endereco{
+    text-align:  left;
+    color: white;
+    background-color: #25142F;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+
+  }
+  .footer p{
+    margin-left: 25px;
+    margin-bottom: 10px;
+  }
+  .redes{
+    display: flex;
+  }
+  .redes img{
+    width: 25px;
+    height: auto;
+    margin-left: 25px;
+  }
+  .soulCode{
+    display: flex;
+    align-items: center;
+  }
+  .soulCode img{
+    width: 100px;
+    height: auto;
+    margin-right: 50px;
+  }
